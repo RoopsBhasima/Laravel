@@ -20,5 +20,11 @@ Route::get('/about', function () {
 });
 
 Route::get('/hello',function() {
-    return view('front.hello');
+    return view('hello');
 });
+
+Route::get('/static',function() {
+    return view('static');
+});
+
+
