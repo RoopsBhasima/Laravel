@@ -28,3 +28,7 @@ Route::get('/static',function() {
 });
 
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
