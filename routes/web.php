@@ -27,7 +27,7 @@ Route::get('/static',function() {
     return view('static');
 });
 
-
+Route::resource('cats', 'CategoriesController');
 
 Auth::routes();
 
