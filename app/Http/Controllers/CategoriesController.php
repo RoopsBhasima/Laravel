@@ -95,7 +95,7 @@ class CategoriesController extends Controller
           $cats->status = $request->get('status');
           $cats->save();
     
-          return redirect('/cats')->with('success', 'category has been updated');
+          return redirect('/cats')->with('success', 'Category has been updated');
     }
 
     /**
